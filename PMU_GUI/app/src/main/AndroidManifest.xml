@@ -1,0 +1,93 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="rs.etf.pmu.gui">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".TwoItemsActivity"
+            android:label="@string/title_activity_two_items"></activity>
+        <activity
+            android:name=".ButtonActionsActivity"
+            android:label="@string/title_activity_button_actions"></activity>
+        <activity
+            android:name=".TextViewActivity"
+            android:label="@string/title_activity_text_view"></activity>
+        <activity
+            android:name=".TextSizesActivity"
+            android:label="@string/title_activity_text_sizes"></activity>
+        <activity
+            android:name=".EmailActivity"
+            android:label="@string/title_activity_email"></activity>
+        <activity
+            android:name=".EditTextActivity"
+            android:label="@string/title_activity_edit_text"></activity>
+        <activity
+            android:name=".KeyboardActivity"
+            android:label="@string/title_activity_keyboard"></activity>
+        <activity
+            android:name=".AutocompleteActivity"
+            android:label="@string/title_activity_auto_complete"></activity>
+        <activity
+            android:name=".SpinnerActivity"
+            android:label="@string/title_activity_spinner"></activity>
+        <activity
+            android:name=".CheckboxActivity"
+            android:label="@string/title_activity_checkbox"></activity>
+        <activity
+            android:name=".RadiobuttonActivity"
+            android:label="@string/title_activity_radiobutton"></activity>
+        <activity
+            android:name=".LinearLayoutActivity"
+            android:label="@string/title_linear_activity_layout"></activity>
+        <activity
+            android:name=".RelativeLayoutActivity"
+            android:label="@string/title_relative_activity_layout"></activity>
+        <activity
+            android:name=".MenuItemsActivity"
+            android:label="@string/title_activity_menu_items"></activity>
+        <activity
+            android:name=".CustomListViewActivity"
+            android:label="@string/title_activity_custom_list_view">
+
+
+        </activity>
+        <activity
+            android:name=".MultipleComponentsActivity"
+            android:label="@string/title_activity_multiple_components"></activity>
+        <activity
+            android:name=".ToastActivity"
+            android:label="@string/title_activity_toast"></activity>
+        <activity
+            android:name=".Dialog1Activity"
+            android:label="@string/title_activity_dialog1"></activity>
+        <activity
+            android:name=".Dialog2Activity"
+            android:label="@string/title_activity_dialog2"></activity>
+        <activity
+            android:name=".TimePickerActivity"
+            android:label="@string/title_activity_time_picker">
+
+        </activity>
+        <activity
+            android:name=".DatePickerActivity"
+            android:label="@string/title_activity_date_picker">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EventListenersActivity"
+            android:label="@string/title_activity_event_list"></activity>
+        <activity
+            android:name=".MoveActivity"
+            android:label="@string/title_activity_move"></activity>
+    </application>
+
+</manifest>
